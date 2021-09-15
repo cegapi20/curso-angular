@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'curso-angular';
+  title = 'eventohijopadre';
+  usuarios: string[] = [];
+
+  actualizar(t:any)  {
+    this.usuarios.push(t);
+  }
 }

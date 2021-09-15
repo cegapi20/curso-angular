@@ -19,7 +19,8 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "strictPropertyInitialization": false// false para datos sin inicializars
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
